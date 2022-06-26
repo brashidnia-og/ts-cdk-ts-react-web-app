@@ -1,0 +1,19 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+.vs
+
+# Ignore Gradle build output directory
+software/**/build/
+software/node_modules/
+software/**/*.js
+
+infrastructure/node_modules/
+infrastructure/**/*.js
+
+infrastructure/.vs
+infrastructure/!jest.config.js
+infrastructure/**/*.d.ts
+
+# CDK asset staging directory
+infrastructure/.cdk.staging
+infrastructure/cdk.out/
